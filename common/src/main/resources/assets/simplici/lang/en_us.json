@@ -1,0 +1,11 @@
+{
+  "itemGroup.toolbox.toolbox_tab": "Toolbox",
+  "itemGroup.toolbox": "Toolbox",
+
+  "block.toolbox.simple_propeller": "Propeller",
+  "block.toolbox.blast_propeller": "Blast Propeller",
+  "block.toolbox.firework_thruster": "Firework Thruster",
+
+  "block.toolbox.hinge": "Hinge",
+  "block.toolbox.rotator": "Rotator"
+}

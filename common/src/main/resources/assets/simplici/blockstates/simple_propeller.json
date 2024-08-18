@@ -1,0 +1,32 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "toolbox:block/engine/simple_propeller",
+      "x": 90,
+      "y": 0
+    },
+    "facing=east": {
+      "model": "toolbox:block/engine/simple_propeller",
+      "x": 90,
+      "y": 90
+    },
+    "facing=south": {
+      "model": "toolbox:block/engine/simple_propeller",
+      "x": 90,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "toolbox:block/engine/simple_propeller",
+      "x": 90,
+      "y": 270
+    },
+    "facing=up": {
+      "model": "toolbox:block/engine/simple_propeller",
+      "x": 0
+    },
+    "facing=down": {
+      "model": "toolbox:block/engine/simple_propeller",
+      "x": 180
+    }
+  }
+}

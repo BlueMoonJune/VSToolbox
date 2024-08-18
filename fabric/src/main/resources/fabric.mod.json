@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "toolbox",
+  "version": "${version}",
+  "name": "VS Toolbox Mod",
+  "description": "vanilla+ based VS2 mod",
+  "authors": [ "Dustley" ],
+  "contributors": [
+    "Triode"
+  ],
+  "contact": {
+    "homepage": "https://valkyrienskies.org/",
+    "sources": "https://github.com/ValkyrienSkies/Toolbox"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/toolbox/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.valkyrienskies.toolbox.fabric.ToolboxModFabric"
+    ],
+    "client": [
+      "org.valkyrienskies.toolbox.fabric.ToolboxModFabric${'$'}Client"
+    ],
+    "preLaunch": [
+      "org.valkyrienskies.toolbox.fabric.ValkyrienPreLaunch"
+    ],
+    "modmenu": [
+      "org.valkyrienskies.toolbox.fabric.ToolboxModFabric${'$'}ModMenu"
+    ],
+    "fabric-datagen": [
+      "org.valkyrienskies.toolbox.fabric.ToolboxDataGenerator"
+    ]
+  },
+  "mixins": [
+    "toolbox-common.mixins.json",
+    "toolbox.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=1.20.1",
+    "valkyrienskies": ">=${vs2_version}",
+    "fabricloader": ">=0.14.21"
+  }
+}
